@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import CustomHook from "./customhooks";
+import HigherOrderComponents from "./HigherOrderComponents";
+// import LandingPage from "./ContextApiPractice/LandingPage";
+import UseRefExample from "./Use_Ref";
+// import ContextApi from "./contextapi/ContextApi";
+import Counter from "./components/Counter";
+import RoutingExample from "./Routing_example";
+// import UseMemo from "./components/UseMemo";
+// import UserCallback from "./components/UserCallback";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Counter /> */}
+      {/* <UseMemo /> */}
+      {/* <UserCallback /> */}
+      {/* <ContextApi /> */}
+      {/* <LandingPage /> */}
+      {/* <UseRefExample /> */}
+      {/* <HigherOrderComponents /> */}
+      {/* <CustomHook /> */}
+      <RoutingExample />
     </div>
   );
 }
